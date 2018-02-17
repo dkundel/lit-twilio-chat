@@ -21,6 +21,7 @@
     "twilio-chat": "^2.1.0"
   },
   "devDependencies": {
+    "all-contributors-cli": "^4.10.1",
     "parcel-bundler": "^1.6.1",
     "typescript": "^2.7.2"
   }
