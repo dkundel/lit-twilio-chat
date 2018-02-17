@@ -1,0 +1,27 @@
+{
+  "name": "lit-twilio-chat",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A Twilio Chat powered by lit-html, TypeScript and Parcel",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build src/index.html",
+    "start": "parcel src/index.html",
+    "dev": "parcel watch src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Dominik Kundel <dominik.kundel@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/events": "^1.1.0",
+    "lit-html": "^0.9.0",
+    "node-sass": "^4.7.2",
+    "tslib": "^1.9.0",
+    "twilio-chat": "^2.1.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.6.1",
+    "typescript": "^2.7.2"
+  }
+}
